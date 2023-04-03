@@ -1,0 +1,14 @@
+{
+    "todos": [
+      {
+        "title": "Study NGRX",
+        "done": true,
+        "id": 1
+      },
+      {
+        "title": "Study Docker",
+        "done": false,
+        "id": 2
+      }
+    ]
+  }
