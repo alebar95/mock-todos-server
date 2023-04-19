@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mock-todos-server-deployment
+spec:
+  selector:
+    matchLabels:
+      app: mock-todos-server
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        app: mock-todos-server
+    spec:
+      containers:
+      - name: mock-todos-server
+        imagePullPolicy: Never
+        image: mock-todos-server
+        ports:
+        - containerPort: 3000
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: mock-todos-server-serv
+spec:
+  selector:
+    app: mock-todos-server
+  ports:
+  - protocol: TCP
+    port: 3000   # The port that the service is running on in the cluster
+    targetPort: 3000
+    nodePort: 31200
+  type: NodePort
