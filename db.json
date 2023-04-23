@@ -1,14 +1,1 @@
-{
-    "todos": [
-      {
-        "title": "Study NGRX",
-        "done": true,
-        "id": 1
-      },
-      {
-        "title": "Study Docker",
-        "done": false,
-        "id": 2
-      }
-    ]
-  }
+{"todos":[{"title":"Study NGRX","done":true,"id":1},{"id":2,"title":"Study Docker","done":true},{"id":3,"title":"Study Kubernetes ","done":true}]}

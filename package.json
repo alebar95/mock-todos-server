@@ -1,0 +1,25 @@
+{
+  "name": "mock-todos-server",
+  "version": "1.0.0",
+  "description": "JSON server dell'app todo-app: https://github.com/alebar95/todo-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alebar95/mock-todos-server.git"
+  },
+  "author": "Alessandro Barruffo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alebar95/mock-todos-server/issues"
+  },
+  "homepage": "https://github.com/alebar95/mock-todos-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "keycloak-connect": "^21.1.0"
+  }
+}

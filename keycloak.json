@@ -1,0 +1,14 @@
+{
+    "realm": "todos-realm",
+    "auth-server-url": "http://localhost:8180/auth/",
+    "ssl-required": "external",
+    "resource": "mock-todos-server",
+    "bearerOnly": true,
+    "verify-token-audience": true,
+    "credentials": {
+      "secret": "m1Bt9hp6YtYyvNRY3Ib3bKzpsGAaYLn0"
+    },
+    "realmPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiUorwpEerFJVcksVG99+FTHlICzWI8fvXTirY43ocnB5sLsZod0foHMyFexP10Y+7Bbkack0tstRZcX8hqz6e1sYxA8dNzSuphJxwaXVdAM+x9vm406aZ4CSfZXFD6e03QA/UflOzkJFKd9mzUyN6bKh+1R2UNUuF//BAz+RBeF5QPOfgKl6Y3mWtf/m1tx/XC5sOYPYWubsHIa2/PdWAmDK9GVyoIffm76BFZ1zYeoocSHOkz9sSWJB03Pi0HYnIYHCwgrwbH5Md4/ziPJqT/2hGtz9Xg56+pncrYi4RbiD9isRbWOkgBiUifEJG0OTIntg2C/GuhTX5qzn44bVtwIDAQAB",
+    "confidential-port": 0,
+    "policy-enforcer": {}
+  }
